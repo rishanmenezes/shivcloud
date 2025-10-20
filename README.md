@@ -1,113 +1,133 @@
 # 🪑 Shiv Furniture Cloud
 
-## 📊 Complete Accounting & Inventory Solution for Furniture Manufacturing
+### 📊 Complete Accounting & Inventory Platform for Furniture Manufacturers
 
-**Shiv Furniture Cloud** is a full-stack accounting platform tailored for furniture manufacturers. It streamlines sales, purchases, invoices, inventory, payments, and financial reports — all in one place.
+**Shiv Furniture Cloud** is a cloud-based accounting and inventory management platform, purpose-built for furniture manufacturers. It helps streamline operations from sales and procurement to invoicing, stock control, payments, and financial reporting — all in one responsive web application.
 
 ---
 
-## 🚀 Key Features
-- 🔐 **User Authentication** – Secure sign-up/login with Supabase
-- 👥 **Contacts Management** – Store and manage customer & supplier details
-- 🛋 **Product Catalog** – Add, update, and organize furniture items with stock tracking
-- 📦 **Sales Workflow** – Sales Orders → Invoices → Payments (auto inventory updates)
+## 🚀 Features
+
+- 🔐 **Authentication** – Secure login/signup with Supabase
+- 👥 **Contact Management** – Manage customers and suppliers
+- 🛋 **Product Catalog** – Track stock levels, taxes, and product data
+- 📦 **Sales Workflow** – Sales Orders → Invoices → Payments with stock auto-update
 - 📥 **Purchase Workflow** – Purchase Orders → Bills → Payments
-- 📊 **Reports & Analytics** – Real-time insights (P&L, Balance Sheet, Stock Reports, Partner Ledger)
-- 📱 **Mobile Responsive** – Works on desktop, tablet, and mobile seamlessly
+- 📊 **Reports & Analytics** – Real-time P&L, Balance Sheet, Stock Reports, Partner Ledger
+- 📱 **Mobile Responsive** – Fully functional on desktop, tablet, and mobile
 
 ---
 
 ## 🛠 Tech Stack
 
-### 🔹 Frontend
-- React ⚛️
-- TypeScript
-- Vite ⚡
-- Tailwind CSS 🎨
-- Shadcn UI + Radix UI
-- React Router DOM
-- React Hook Form
-- TanStack Query
-- Recharts 📊
+### Frontend
+- **React** + **TypeScript**
+- **Vite** for fast builds
+- **Tailwind CSS**, **Shadcn UI**, **Radix UI**
+- **React Router**, **React Hook Form**
+- **TanStack Query**, **Recharts**
 
-### 🔹 Backend & Database
-- Supabase (PostgreSQL, Authentication, Storage)
+### Backend & Services
+- **Supabase**:
+  - PostgreSQL (Database)
+  - Auth (User sessions)
+  - Storage (File uploads)
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Getting Started
 
-### Clone the Repository
+### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd Shiv-Furniture-Cloud
-```
+git clone https://github.com/Thenameisrakesh/shivcloud.git
+cd shivcloud
 
-### Install Dependencies
-```bash
+Install Dependencies
+
 npm install
 # or
 bun install
-```
 
-### Configure Environment Variables
-Create a `.env` file in the root directory and add Supabase credentials:
-```env
-VITE_SUPABASE_URL="YOUR_SUPABASE_URL"
-VITE_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
-```
+Configure Environment Variables
 
-### Run Development Server
-```bash
+Create a .env file in the root folder with:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+Run the App
 npm run dev
 # or
 bun run dev
-```
 
-👉 Accessible at [http://localhost:5173](http://localhost:5173)
 
----
+Access locally at: http://localhost:5173
 
-## 📖 Usage Guide
-- 🔑 **Sign Up / Login** to your account
-- 👥 **Manage Contacts** (customers & suppliers)
-- 🛋 **Add Furniture Products** with stock levels & tax settings
-- 📦 **Create Sales Orders** → Convert to Invoices → Track Payments
-- 📥 **Record Purchases** via Purchase Orders & Bills
-- 📊 **Generate Reports** for finance, inventory, and business health
+📖 How to Use
 
----
+🔐 Sign up or log in
 
-## 📂 Project Structure
-```
-Shiv-Furniture-Cloud/
-├── public/               # Static assets
+👥 Add customer and supplier contacts
+
+🛋 Add products and manage stock
+
+📦 Create sales orders → generate invoices → record payments
+
+📥 Record purchases via POs and bills
+
+📊 Analyze real-time reports
+
+📂 Project Structure\
+
+shivcloud/
+├── public/               # Static files
 ├── src/
 │   ├── App.tsx
 │   ├── components/       # UI components
-│   ├── hooks/            # Custom hooks (e.g., auth, queries)
-│   ├── integrations/     # Supabase & external services
+│   ├── hooks/            # Custom hooks
+│   ├── integrations/     # Supabase & APIs
 │   ├── lib/              # Utility functions
-│   ├── pages/            # Pages (Auth, Products, Orders, Reports, etc.)
+│   ├── pages/            # Routes & views
 │   └── main.tsx
 ├── supabase/             # Config & migrations
-├── .env                  # Environment variables
-├── package.json          # Dependencies & scripts
+├── .env                  # Environment config
+├── package.json          # Dependencies
 ├── tailwind.config.ts    # Tailwind setup
-├── vite.config.ts        # Vite build config
-└── README.md             # Documentation
-```
+├── vite.config.ts        # Vite config
+└── README.md             # You're here!
 
----
+🎥 Demo
 
-## 🎥 Demo
-📺 Watch the demo video here:
+📺 Watch the live demo on YouTube:
 👉 https://youtu.be/phUE_kJ-SBY?si=O-B66feXB_Y3p4xR
 
----
+🛣 Roadmap
 
-## 👥 Contributors
-- Rishan Menezes
-- Rakesh G
-- Nagaraju HL
-- Prithvi HN
+ GST/Regional Tax Support
+
+ QR/Barcode Scanning
+
+ Invoice PDF + Email Support
+
+ Role-Based Access Controls
+
+ Cloud Printing for Invoices
+
+👥 Contributors
+
+Rishan Menezes
+
+Rakesh G
+
+Nagaraju HL
+
+Prithvi HN
+
+📝 License
+
+This project is licensed under the MIT License
+
+🙌 Get Involved
+
+💡 Found a bug? Want to contribute?
+Fork the repo, create a branch, and submit a pull request!
