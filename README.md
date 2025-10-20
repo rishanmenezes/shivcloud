@@ -1,113 +1,153 @@
-# 🪑 Shiv Furniture Cloud
 
-## 📊 Complete Accounting & Inventory Solution for Furniture Manufacturing
+🪑 Shiv Furniture Cloud
+📊 Complete Accounting & Inventory Platform for Furniture Manufacturers
 
-**Shiv Furniture Cloud** is a full-stack accounting platform tailored for furniture manufacturers. It streamlines sales, purchases, invoices, inventory, payments, and financial reports — all in one place.
+Shiv Furniture Cloud is a comprehensive, cloud-based accounting and inventory management solution tailored specifically for the furniture manufacturing industry. It streamlines your entire workflow — from sales and purchases to invoicing, inventory tracking, payments, and financial reporting — all within a modern and responsive web interface.
 
----
+🚀 Features Overview
 
-## 🚀 Key Features
-- 🔐 **User Authentication** – Secure sign-up/login with Supabase
-- 👥 **Contacts Management** – Store and manage customer & supplier details
-- 🛋 **Product Catalog** – Add, update, and organize furniture items with stock tracking
-- 📦 **Sales Workflow** – Sales Orders → Invoices → Payments (auto inventory updates)
-- 📥 **Purchase Workflow** – Purchase Orders → Bills → Payments
-- 📊 **Reports & Analytics** – Real-time insights (P&L, Balance Sheet, Stock Reports, Partner Ledger)
-- 📱 **Mobile Responsive** – Works on desktop, tablet, and mobile seamlessly
+🔐 Secure Authentication
+Robust user sign-up and login powered by Supabase Authentication.
 
----
+👥 Contacts Management
+Maintain detailed records of customers and suppliers with full interaction history.
 
-## 🛠 Tech Stack
+🛋 Product Catalog with Stock Tracking
+Organize products, manage variants, and monitor inventory levels in real time.
 
-### 🔹 Frontend
-- React ⚛️
-- TypeScript
-- Vite ⚡
-- Tailwind CSS 🎨
-- Shadcn UI + Radix UI
-- React Router DOM
-- React Hook Form
-- TanStack Query
-- Recharts 📊
+📦 Sales Workflow
+Seamlessly handle Sales Orders → Invoices → Payments with automated inventory adjustments.
 
-### 🔹 Backend & Database
-- Supabase (PostgreSQL, Authentication, Storage)
+📥 Purchases Workflow
+Efficient Purchase Order and Billing system to manage procurement and vendor payments.
 
----
+📊 Financial & Inventory Reporting
+Generate real-time reports including Profit & Loss, Balance Sheets, Stock Valuation, and Partner Ledgers.
 
-## ⚙️ Installation
+📱 Responsive UI
+Fully optimized for desktop, tablet, and mobile — perfect for teams on the go.
 
-### Clone the Repository
-```bash
+🛠 Tech Stack
+🔹 Frontend
+
+React + TypeScript
+
+Vite for blazing-fast development
+
+Tailwind CSS + Shadcn UI + Radix UI for modern, accessible design
+
+React Router DOM for routing
+
+React Hook Form for intuitive form handling
+
+TanStack Query for efficient data fetching
+
+Recharts for beautiful data visualizations
+
+🔹 Backend & Infrastructure
+
+Supabase for backend services:
+
+PostgreSQL database
+
+Auth & session management
+
+File storage
+
+⚙️ Getting Started
+1. Clone the Repository
 git clone <repository-url>
 cd Shiv-Furniture-Cloud
-```
 
-### Install Dependencies
-```bash
+2. Install Dependencies
 npm install
 # or
 bun install
-```
 
-### Configure Environment Variables
-Create a `.env` file in the root directory and add Supabase credentials:
-```env
+3. Configure Environment Variables
+
+Create a .env file at the root with the following credentials:
+
 VITE_SUPABASE_URL="YOUR_SUPABASE_URL"
 VITE_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
-```
 
-### Run Development Server
-```bash
+4. Start the Development Server
 npm run dev
 # or
 bun run dev
-```
 
-👉 Accessible at [http://localhost:5173](http://localhost:5173)
 
----
+Application will be available at: http://localhost:5173
 
-## 📖 Usage Guide
-- 🔑 **Sign Up / Login** to your account
-- 👥 **Manage Contacts** (customers & suppliers)
-- 🛋 **Add Furniture Products** with stock levels & tax settings
-- 📦 **Create Sales Orders** → Convert to Invoices → Track Payments
-- 📥 **Record Purchases** via Purchase Orders & Bills
-- 📊 **Generate Reports** for finance, inventory, and business health
+📖 Usage Guide
 
----
+Sign Up / Login to access the platform.
 
-## 📂 Project Structure
-```
+Add Contacts: Manage customer and supplier profiles.
+
+Manage Products: Add furniture items, configure tax, and track stock.
+
+Handle Sales: Create Sales Orders → Generate Invoices → Record Payments.
+
+Track Purchases: Manage Purchase Orders and Bills.
+
+Analyze Reports: Access financials, inventory levels, and partner balances.
+
+📂 Project Structure
 Shiv-Furniture-Cloud/
 ├── public/               # Static assets
 ├── src/
 │   ├── App.tsx
-│   ├── components/       # UI components
-│   ├── hooks/            # Custom hooks (e.g., auth, queries)
-│   ├── integrations/     # Supabase & external services
-│   ├── lib/              # Utility functions
-│   ├── pages/            # Pages (Auth, Products, Orders, Reports, etc.)
+│   ├── components/       # Reusable UI components
+│   ├── hooks/            # Custom React hooks (auth, queries)
+│   ├── integrations/     # Supabase & third-party services
+│   ├── lib/              # Utilities and helper functions
+│   ├── pages/            # Application pages (Auth, Orders, Reports, etc.)
 │   └── main.tsx
-├── supabase/             # Config & migrations
-├── .env                  # Environment variables
+├── supabase/             # Supabase config & migrations
+├── .env                  # Environment configuration
 ├── package.json          # Dependencies & scripts
-├── tailwind.config.ts    # Tailwind setup
-├── vite.config.ts        # Vite build config
-└── README.md             # Documentation
-```
+├── tailwind.config.ts    # Tailwind configuration
+├── vite.config.ts        # Vite build setup
+└── README.md             # Project documentation
 
----
+🖼 Screenshots (Optional)
 
-## 🎥 Demo
-📺 Watch the demo video here:
+You can include screenshots here showing the dashboard, sales orders, and reports.
+
+
+▶️ Watch a full walkthrough:
 👉 https://youtu.be/phUE_kJ-SBY?si=O-B66feXB_Y3p4xR
 
----
 
-## 👥 Contributors
-- Rishan Menezes
-- Rakesh G
-- Nagaraju HL
-- Prithvi HN
+🌍 Deployment
+
+Coming soon: Vercel / Netlify deployment instructions.
+
+🛣 Roadmap
+
+ GST & Regional Tax Integration
+
+ Barcode / QR Code Scanning Support
+
+ Email PDF Invoices to Customers
+
+ Role-Based Access Control (Admin / Staff / Viewer)
+
+ Cloud Print Support for Billing
+
+👥 Contributors
+
+Rishan Menezes
+
+Rakesh G
+
+Nagaraju HL
+
+Prithvi HN
+
+
+🙌 Get Involved
+
+Found a bug or want to contribute?
+Feel free to fork the repo, open an issue, or submit a pull request!
