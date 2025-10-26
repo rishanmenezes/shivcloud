@@ -16,7 +16,7 @@
 - 📊 **Reports & Analytics** – Real-time P&L, Balance Sheet, Stock Reports, Partner Ledger
 - 📱 **Mobile Responsive** – Fully functional on desktop, tablet, and mobile
 
----
+--
 
 ## 🛠 Tech Stack
 
